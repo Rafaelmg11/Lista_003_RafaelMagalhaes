@@ -6,8 +6,8 @@ produto = str (input("Digite qual é o produto: "))
 valor = float (input("Digite qual é o valor do produto: "))
 
 if valor <= 100:
-    margem = valor * 0.45
-    print("O preço de venda de {}, é de R${}".format(produto,margem))
+    margem = valor + (valor * 0.45)
+    print(" preço de venda de {}, é de R${}".format(produto,margem))
 else:
-    margem = valor * 0.35
+    margem = valor + (valor * 0.35)
     print("O preço de venda de {}, é de R${}".format(produto,margem))

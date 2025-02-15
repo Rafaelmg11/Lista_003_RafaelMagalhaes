@@ -12,12 +12,21 @@ sexo = (input("Digite seu sexo ('f' para femenino e 'm' para masculino): "))
 sexo = sexo.lower()
 nome = nome.title()
 
-if sexo == "f" and idade > 21 and idade <34:
+if sexo == "f" and idade > 21 and idade <34: #Ok
     print("{}, você foi aceita para servir o exercito!".format(nome))
-elif sexo == "m" and idade > 18 and idade <39:
+
+elif sexo == "m" and idade > 18 and idade <39: #OK
     print("{}, você foi aceito para servir o exercito!".format(nome))
-else:
-    print("{}, você não foi aceito/a para servir o exercito!".format(nome))
+
+elif sexo != 'm' or sexo != 'm':
+    if sexo != 'f' or sexo != 'm':
+        print("Sexo invalido,você não foi aceito")
 
 
+elif sexo == 'm' and idade <18:
+    print("Idade invalida,você não foi aceito/a")
 
+elif sexo == 'f' and idade <21:
+    print("Idade invalida,você não foi aceito/a")
+
+ERRADO
