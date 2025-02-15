@@ -4,7 +4,9 @@
 # indicando que foi fornecido dado invalido. Para o valor deve ser um numero real.
 
 risco = str (input("Digite o grau de aceitação de risco que você deseja (BX para baixo, AL para alto): "))
-risco = risco.lower
+
+risco = risco.lower()
+
 valor = float (input("Digite o valor a ser investido: "))
 
 #Investimento Baixo:
@@ -18,6 +20,8 @@ elif risco == "al" and valor <1000:
     print("Invista em Bitcoins")
 elif risco == "al" and valor >=1000:
     print("Invista em Ações")
+else:
+    print("Grau de aceitação de risco inválido")
 
 
 
