@@ -10,6 +10,7 @@ nome = (input("Digite seu nome: "))
 idade = int (input("Digite sua idade: "))
 sexo = (input("Digite seu sexo ('f' para femenino e 'm' para masculino): "))
 sexo = sexo.lower()
+nome = nome.title()
 
 if sexo == "f" and idade > 21 and idade <34:
     print("{}, você foi aceita para servir o exercito!".format(nome))
