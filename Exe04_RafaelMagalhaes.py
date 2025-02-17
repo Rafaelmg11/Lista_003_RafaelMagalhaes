@@ -18,15 +18,13 @@ if sexo == "f" and idade > 21 and idade <34: #Ok
 elif sexo == "m" and idade > 18 and idade <39: #OK
     print("{}, você foi aceito para servir o exercito!".format(nome))
 
-elif sexo != 'm' or sexo != 'm':
-    if sexo != 'f' or sexo != 'm':
+elif sexo != 'm' and sexo != 'f':
         print("Sexo invalido,você não foi aceito")
 
-
+ 
 elif sexo == 'm' and idade <18:
     print("Idade invalida,você não foi aceito/a")
 
 elif sexo == 'f' and idade <21:
     print("Idade invalida,você não foi aceito/a")
 
-ERRADO

@@ -3,11 +3,13 @@
 
 municipio = (input("Digite o nome do municipio: "))
 
-eleitores = (input("Digite a quantidade de eleitores: "))
+eleitores = int (input("Digite a quantidade de eleitores: "))
 
-votos = (input("Digite a quantidade de votos do canditado mais votado: "))
+votos = int (input("Digite a quantidade de votos do canditado mais votado: "))
 
-turno2 = eleitores/2
+turno = eleitores / 2
 
-if eleitores >= 200000 and turno2 < votos:
-    
+if eleitores >= 200000 and votos < turno:
+    print("Em {} havera segundo turno".format(municipio))
+else:
+    print("Em {} não havera segundo turno".format(municipio))
