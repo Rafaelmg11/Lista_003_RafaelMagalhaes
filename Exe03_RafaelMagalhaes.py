@@ -10,3 +10,5 @@ if emprestimo < parcela:
     print("Empréstimo concedido!")
 else:
     print("Emprestimo negado!")
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")

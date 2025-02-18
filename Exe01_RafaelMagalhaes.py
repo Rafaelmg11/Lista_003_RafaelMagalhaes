@@ -23,6 +23,8 @@ elif risco == "al" and valor >=1000:
 else:
     print("Grau de aceitação de risco inválido")
 
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
 
 
 

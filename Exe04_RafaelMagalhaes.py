@@ -28,3 +28,4 @@ elif sexo == 'm' and idade <18:
 elif sexo == 'f' and idade <21:
     print("Idade invalida,você não foi aceito/a")
 
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")

@@ -27,3 +27,5 @@ elif peso  >=90 and peso <100:
 
 elif peso  >= 100:
     print('{}, sua categoria é "Pesado"'.format(nome))
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
