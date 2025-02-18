@@ -6,7 +6,7 @@ parcela = float(input("Digite qual é o valor da parcela: "))
 
 emprestimo = salario * 0.08
 
-if emprestimo < parcela:
+if  parcela < emprestimo:
     print("Empréstimo concedido!")
 else:
     print("Emprestimo negado!")
